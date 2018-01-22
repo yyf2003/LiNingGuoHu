@@ -1,0 +1,144 @@
+﻿BODY {
+	SCROLLBAR-FACE-COLOR: #f6f6f6; FONT-SIZE: 9pt; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; SCROLLBAR-SHADOW-COLOR: #cccccc; SCROLLBAR-3DLIGHT-COLOR: #cccccc; SCROLLBAR-ARROW-COLOR: #330000; SCROLLBAR-TRACK-COLOR: #f6f6f6; FONT-FAMILY: ??; SCROLLBAR-DARKSHADOW-COLOR: #ffffff; BACKGROUND-COLOR: #ffffff
+}
+A {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.r3:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.r3:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.r3:hover {
+	COLOR: #0000ff
+}
+.BlackA {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.BlackA:hover {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+TD {
+	FONT-SIZE: 9pt; FONT-FAMILY: ??
+}
+.InputStyle {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.ButtonStyle {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.TheSpace {
+	WIDTH: 0px; HEIGHT: 25px
+}
+.BorderRight {
+	BORDER-RIGHT: gray 1px solid
+}
+.BorderBottom {
+	BORDER-BOTTOM: #ffffff thin solid
+}
+.HideCtrl {
+	LEFT: 0px; VISIBILITY: hidden; WIDTH: 100%; POSITION: absolute; TOP: 92px; HEIGHT: 28px
+}
+.ShowCtrl {
+	LEFT: 0px; VISIBILITY: visible; WIDTH: 100%; POSITION: absolute; TOP: 92px; HEIGHT: 28px
+}
+.RightLeftDash {
+	BORDER-RIGHT: gray 1px solid; BORDER-TOP: 0px; BORDER-BOTTOM: 0px
+}
+.OnMainMenu {
+	BACKGROUND-IMAGE: url('../Image/bg_mainmenuon.gif'); WIDTH: 90px; CURSOR: hand; COLOR: #ffffff; PADDING-TOP: 2px; TEXT-ALIGN: center
+}
+.OutMainMenu {
+	BACKGROUND-IMAGE: url(../Image/bg_mainmenuout.gif); WIDTH: 90px; CURSOR: hand; COLOR: #999999; PADDING-TOP: 2px; TEXT-ALIGN: center
+}
+.DataGrids {
+	CURSOR: hand
+}
+.SubMenuTable {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BACKGROUND-IMAGE: url(../Image/bg_submenutable.gif); BORDER-LEFT: 0px; WIDTH: 100%; BORDER-BOTTOM: 0px; HEIGHT: 100%
+}
+.SubMenuTableNew {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BACKGROUND-IMAGE: url(../Image/bg_submenutable_new.gif); BORDER-LEFT: 0px; WIDTH: 100%; BORDER-BOTTOM: 0px; HEIGHT: 100%
+}
+.SubMenuItem {
+	BACKGROUND-IMAGE:url(../Image/bg_submenu.gif); WIDTH: 105px; TEXT-ALIGN: center
+}
+.SubMenuItemNew {
+	BORDER-RIGHT: white 2px solid; PADDING-RIGHT: 5px; PADDING-LEFT: 5px; WIDTH: 105px; WORD-BREAK: keep-all; TEXT-ALIGN: center
+}
+.TextCss {
+	BORDER-RIGHT: #507b9c 1px solid; BORDER-TOP: #507b9c 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #507b9c 1px solid; WIDTH: 150px; COLOR: #000000; LINE-HEIGHT: 17px; BORDER-BOTTOM: #507b9c 1px solid; FONT-FAMILY: "??"; HEIGHT: 20px; TEXT-DECORATION: none
+}
+.BarLeft {
+	BACKGROUND-IMAGE: url(../Image/bar_left.gif); WIDTH: 12px; HEIGHT: 25px
+}
+.BarCenter {
+	BACKGROUND-IMAGE:url(../Image/bar_center.gif); VERTICAL-ALIGN: middle; HEIGHT: 25px; TEXT-ALIGN: center
+}
+.Barleft {
+	BACKGROUND-IMAGE: url(../Image/bar_center.gif); VERTICAL-ALIGN: middle; HEIGHT: 25px; TEXT-ALIGN: left
+}
+.BarRight {
+	BACKGROUND-IMAGE: url(../Image/bar_right.gif); WIDTH: 9px; HEIGHT: 25px
+}
+.BgLeft {
+	BACKGROUND-IMAGE: url(../Image/bg_left.gif); WIDTH: 12px
+}
+.BgRight {
+	BACKGROUND-IMAGE: url(../Image/bg_right.gif); WIDTH: 8px
+}
+.BottomLeft {
+	BACKGROUND-IMAGE: url(../Image/bottom_left.gif); WIDTH: 12px; HEIGHT: 8px
+}
+.BottomCenter {
+	BACKGROUND-IMAGE: url(../Image/bottom_center.gif); HEIGHT: 8px
+}
+.BottomRight {
+	BACKGROUND-IMAGE: url(../Image/bottom_right.gif); WIDTH: 9px; HEIGHT: 8px
+}
+.TopLeft {
+	WIDTH: 2px; HEIGHT: 30px; BACKGROUND-COLOR: #d8d8d8
+}
+.TopCenter {
+	BACKGROUND-IMAGE: url(../Image/top_center.gif); HEIGHT: 30px
+}
+.TopRight {
+	BACKGROUND-IMAGE: url(../Image/top_right.gif); WIDTH: 30px; HEIGHT: 30px
+}
+.TheMes {
+	BORDER-RIGHT: #d8d8d8 2px solid; BORDER-TOP: #d8d8d8 1px dashed; BORDER-LEFT: #d8d8d8 2px solid; BORDER-BOTTOM: #d8d8d8 2px solid
+}
+.MesContent {
+	PADDING-LEFT: 8px; VERTICAL-ALIGN: middle; HEIGHT: 25px
+}
+.TheDg {
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; WIDTH: 100%; BORDER-BOTTOM: #ffffff 1px solid
+}
+.DgPage {
+	HEIGHT: 25px; TEXT-ALIGN: right
+}
+.DgHead {
+	HEIGHT: 25px; TEXT-ALIGN: center;
+}
+.DgItem {
+	CURSOR: hand; HEIGHT: 25px; TEXT-ALIGN: center
+}
+.DgAlterItem {
+	CURSOR: hand; HEIGHT: 25px; TEXT-ALIGN: center
+}
+.WebTable {
+	BORDER-RIGHT: #d8d8d8 1px solid; BORDER-TOP: #d8d8d8 1px solid; BORDER-LEFT: #d8d8d8 1px solid; WIDTH: 100%; BORDER-BOTTOM: #d8d8d8 1px solid; HEIGHT: 100%
+}
+.WebTitle {
+	PADDING-LEFT: 8px; BACKGROUND-IMAGE: url('../Image/bg_title.gif'); HEIGHT: 30px
+}
+.DgBgCSS {
+	BACKGROUND-IMAGE:  url(../Image/bg_table.gif); VERTICAL-ALIGN: top
+}
+.ItemContent {
+	HEIGHT: 20px
+}

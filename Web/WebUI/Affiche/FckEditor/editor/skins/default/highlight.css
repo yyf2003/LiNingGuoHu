@@ -1,0 +1,38 @@
+BODY
+{
+}
+
+.cpp
+{
+	font-family : Arial;
+	background-color :#FFFFBB;
+	font-size:12px;
+	border-width : 1px;
+	border-style : solid;
+	border-color : #BBBBBB;
+}
+
+
+.cppblockdoc
+{
+	color: #00FF00;
+	font-family: Arial;
+}
+
+.cpplinedoc
+{
+	color: #2eFF57;
+	font-family: Arial;
+}
+
+.cppcode
+{
+	color:#000000;
+	font-family:Arial;
+}
+
+.cppliteral
+{
+	color: #ff00ff;
+	font-family: Courrier;
+}

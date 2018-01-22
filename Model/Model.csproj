@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{53995DBB-9836-4647-AD22-865884FDEB9E}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>LN.Model</AssemblyName>
+    <RootNamespace>LN.Model</RootNamespace>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="dotnetCHARTING, Version=3.2.1934.18179, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Web\Bin\dotnetCHARTING.DLL</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AreaCityLevel.cs" />
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AfficheData.cs" />
+    <Compile Include="AfficheType.cs" />
+    <Compile Include="ApplicationData.cs" />
+    <Compile Include="AreaData.cs" />
+    <Compile Include="Attachment.cs" />
+    <Compile Include="CustomerInfo.cs" />
+    <Compile Include="DealerUser.cs" />
+    <Compile Include="DepartMentInfo.cs" />
+    <Compile Include="DistributorsInfo.cs" />
+    <Compile Include="EditShopInfo.cs" />
+    <Compile Include="ExportOrderRack.cs" />
+    <Compile Include="ExportOriginalOrderRack.cs" />
+    <Compile Include="FinalPromotionShops.cs" />
+    <Compile Include="imageToPOP.cs" />
+    <Compile Include="imageToPOPTemp.cs" />
+    <Compile Include="NewAddPOP.cs" />
+    <Compile Include="OrderUpdateLog.cs" />
+    <Compile Include="PageModel.cs" />
+    <Compile Include="POPAddition.cs" />
+    <Compile Include="POPMaterialPrice.cs" />
+    <Compile Include="POPSeat.cs" />
+    <Compile Include="POPSetupImage.cs" />
+    <Compile Include="ProductLineType.cs" />
+    <Compile Include="Promotion.cs" />
+    <Compile Include="PromotionPOPOrder.cs" />
+    <Compile Include="PromotionPosition.cs" />
+    <Compile Include="PromotionProductLines.cs" />
+    <Compile Include="PromotionShopImage.cs" />
+    <Compile Include="PromotionShopInfo.cs" />
+    <Compile Include="PromotionShopLevel.cs" />
+    <Compile Include="PromotionShops.cs" />
+    <Compile Include="PromotionStoryBag.cs" />
+    <Compile Include="PromotionSonStoryBag.cs" />
+    <Compile Include="PromotionStorySeat.cs" />
+    <Compile Include="ProvinceInDepartment.cs" />
+    <Compile Include="RackInfo.cs" />
+    <Compile Include="RackInShop.cs" />
+    <Compile Include="RackLimitCount.cs" />
+    <Compile Include="RepeatShopInUpdateOrder.cs" />
+    <Compile Include="roleAndPower.cs" />
+    <Compile Include="ShippingPOPData.cs" />
+    <Compile Include="ShopRetailAttribute.cs" />
+    <Compile Include="ShopStateInfo.cs" />
+    <Compile Include="ShopType.cs" />
+    <Compile Include="ShopVI.cs" />
+    <Compile Include="SupplierArea.cs" />
+    <Compile Include="SupplierAssignRecord.cs" />
+    <Compile Include="AssignUser.cs" />
+    <Compile Include="CityData.cs" />
+    <Compile Include="ComplainAcceptContent.cs" />
+    <Compile Include="ComplainContent.cs" />
+    <Compile Include="ComplainType.cs" />
+    <Compile Include="DealerInfo.cs" />
+    <Compile Include="DSRCheckRules.cs" />
+    <Compile Include="DSRExamData.cs" />
+    <Compile Include="DSRResultsList.cs" />
+    <Compile Include="ErrLog.cs" />
+    <Compile Include="GoodsConfirm.cs" />
+    <Compile Include="LoginLog.cs" />
+    <Compile Include="PhysicalCompanyData.cs" />
+    <Compile Include="POPChangeSet.cs" />
+    <Compile Include="POPImageData.cs" />
+    <Compile Include="POPInfo.cs" />
+    <Compile Include="POPLaunch.cs" />
+    <Compile Include="POPMateriaData.cs" />
+    <Compile Include="POPPrice.cs" />
+    <Compile Include="POPReprotDamage.cs" />
+    <Compile Include="POPScaleData.cs" />
+    <Compile Include="POPStage.cs" />
+    <Compile Include="ProductLineData.cs" />
+    <Compile Include="ProvinceData.cs" />
+    <Compile Include="SaleTypeInfo.cs" />
+    <Compile Include="SetUpConfirm.cs" />
+    <Compile Include="ShippingSpeedData.cs" />
+    <Compile Include="ShopInfo.cs" />
+    <Compile Include="ShopLevel.cs" />
+    <Compile Include="SupplierAssignRule.cs" />
+    <Compile Include="SupplierInfo.cs" />
+    <Compile Include="SupplierSetupPrice.cs" />
+    <Compile Include="SupplierUserManage.cs" />
+    <Compile Include="supplier_POPIDsetupPrice.cs" />
+    <Compile Include="sysFunction.cs" />
+    <Compile Include="tb_FOSPOP.cs" />
+    <Compile Include="tb_OrderSearch_Time.cs" />
+    <Compile Include="tb_POPInfo_Img.cs" />
+    <Compile Include="TownCityLevel.cs" />
+    <Compile Include="TownData.cs" />
+    <Compile Include="UpdateOrderLog.cs" />
+    <Compile Include="UpLoadEffectImg.cs" />
+    <Compile Include="UserAreaMange.cs" />
+    <Compile Include="UserInArea.cs" />
+    <Compile Include="UserInfo.cs" />
+    <Compile Include="UserTypeData.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

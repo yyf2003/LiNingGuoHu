@@ -1,0 +1,238 @@
+﻿@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font: 12px/160% Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #4d4d4d;
+	line-height:20px;
+}
+th {
+	font-size: 12px;
+}
+td {
+	font-size: 12px;
+}
+body {
+	font-size: 12px;
+}
+body { 
+    margin: 0 auto;
+    width:100%;	
+	padding: 0;
+
+}
+
+a:visited {
+	color: #4d4d4d;
+	text-decoration: none;
+}
+
+a:link {
+	color: #4d4d4d;
+	text-decoration: none;
+}
+a:active {
+	color: #0088dc;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #0088dc;
+	text-decoration: underline;
+}
+
+.blue12{
+    font: 12px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #003366;
+	line-height:20px;
+	}
+.blue12 a:visited {
+	color: #003366;
+	text-decoration: none;
+}
+
+.blue12 a:link {
+	color: #003366;
+	text-decoration: none;
+}
+
+.blue12 a:active  {
+	color: #003366;
+	text-decoration: underline;
+}
+
+.blue12 a:hover  {
+	color: #003366;
+	text-decoration: underline;
+}
+#header {
+	height:69px;
+	width:100%;
+	background:#eee;
+	top:0;
+    clear: both;
+    float:left;
+	background:url(../images/inde-bg.gif) repeat-x;
+}
+#siteNav {
+	float: left;
+	width: 141px;
+	margin:0px;
+}
+#siteNav1 {
+	float: left;
+	width: 540px;
+	height:62px;
+	line-height:62px;
+	margin:0px 0px 0px 30px;
+	vertical-align:middle;
+	text-align:center;
+	
+}
+#header1 {
+	height:23px;
+	width:100%;
+	background:#eee;
+	top:0;
+    clear: both;	
+    background:url(../images/inde-bg1.gif) repeat-x;
+}
+
+
+
+#headertext {
+	height:23px;
+	width:200px;
+	color:#e1e1e1;
+    font: 12px Verdana, Geneva, Arial, Helvetica, sans-serif;
+    line-height:23px;
+    vertical-align:middle;
+    text-align:center;
+}
+
+#footer {
+	width:100%;
+	height:57px;
+	line-height:57px;
+	position:absolute;
+	background:url(../img/bottom-bg.jpg) repeat-x;
+	color:#FFF;
+	padding-left:20px;
+	bottom:0;
+	z-index:999;
+}
+
+#Acc1 {
+	width:190px;
+	margin:0 4px;
+}
+.AquaAccordion {
+	border-left: solid 1px #909090;
+	border-right: solid 1px #909090;
+	border-bottom: solid 1px #909090;
+	overflow: hidden;
+	font-family: "Times New Roman", Times, serif;
+}
+.AquaAccordion .Tab {
+	height: 32px;
+	background-image: url(../images/tabe-bg.gif);
+	border-bottom: solid 1px #909090;
+	border-top: solid 1px #909090;
+	margin: 0px 0px 5px 0px;
+	padding-left:5px;
+	cursor: pointer;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	text-align:left;
+	font-weight:600;
+	line-height:32px;
+	color:#333;
+	text-indent:2pc;
+	letter-spacing:1px
+}
+.AquaAccordion .Tab1 {
+	height: 32px;
+	background-image: url(../images/tabe-bgg.gif);
+	border-bottom: solid 1px #909090;
+	border-top: solid 1px #909090;
+	margin: 0px 0px 5px 0px;
+	padding-left:5px;
+	cursor: pointer;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	text-align:left;
+	font-weight:600;
+	line-height:32px;
+	color:#333;
+	text-indent:2pc;
+	letter-spacing:1px
+}
+
+.AquaAccordion .Content {
+	overflow:hidden;
+}
+.menu {
+	background:url(../img/ul-bg.jpg) no-repeat;
+}
+.menu br {
+	height:4px;
+	line-height:4px;
+	font-size:0;
+}
+.menu li {
+
+background-image:url('../images/tabe-bg1.gif');
+background-repeat:no-repeat;background-position:left;
+	background-color:#faf6f5;
+	height:35px;
+	text-indent:3pc;
+	line-height:35px;
+	width:100%;
+	padding:3px 0px 0px 0xp;
+	border-top:solid 1px #fff;
+	border-bottom:solid 1px #fff;
+
+	
+}
+.menu li a {
+	color:#333;
+	text-decoration: none;
+}
+.menu li a:hover {
+	color:#a00b00;
+	text-decoration:none;
+}
+
+#left {
+	float: left;
+	width: 190px;
+	height:100%;
+}
+#right {
+	float: left;
+	height:100%;
+	margin:0px 0 0 10px;
+	background-color:white;
+	overflow:hidden;
+	border:1px gray solid;
+}
+.frameIndex {
+	clear: both;
+	float: left;
+	width: 100%;
+	margin:10px 0 10px 0;
+	background-color:#fff;
+}
+#buttom {clear: left;
+float:left;
+	width: 100%;
+	text-align: center;
+	height:22px;
+	line-height:22px;
+	background-color:#858585;
+	border-top:2px #a7a7a7 solid;
+	overflow:hidden;
+}

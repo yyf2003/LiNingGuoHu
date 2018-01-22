@@ -1,0 +1,2 @@
+﻿引用 My97DatePicker/My97DatePicker/WdatePicker.js
+在input上用 onclick="WdatePicker()"方法

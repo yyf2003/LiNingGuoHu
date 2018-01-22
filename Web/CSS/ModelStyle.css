@@ -1,0 +1,251 @@
+BODY {
+	SCROLLBAR-FACE-COLOR: #f6f6f6; FONT-SIZE: 9pt; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; SCROLLBAR-SHADOW-COLOR: #cccccc; SCROLLBAR-3DLIGHT-COLOR: #cccccc; SCROLLBAR-ARROW-COLOR: #330000; SCROLLBAR-TRACK-COLOR: #f6f6f6; SCROLLBAR-DARKSHADOW-COLOR: #ffffff; SCROLLBAR-BASE-COLOR: #ffffff
+}
+TD {
+	FONT-SIZE: 9pt
+}
+A {
+	COLOR: #000; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: blue; TEXT-DECORATION: none
+}
+.DdlStyle {
+	SCROLLBAR-FACE-COLOR: #f6f6f6; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; SCROLLBAR-SHADOW-COLOR: #cccccc; SCROLLBAR-3DLIGHT-COLOR: #cccccc; SCROLLBAR-ARROW-COLOR: #330000; SCROLLBAR-TRACK-COLOR: #f6f6f6; SCROLLBAR-DARKSHADOW-COLOR: #ffffff; HEIGHT: 20px
+}
+.CbStyle {
+	
+}
+.TbStyle {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; HEIGHT: 20px
+}
+.ModelTable {
+	BORDER-RIGHT: #d8d8d8 1px solid; BORDER-TOP: #d8d8d8 1px solid; BORDER-LEFT: #d8d8d8 1px solid; WIDTH: 100%; BORDER-BOTTOM: #d8d8d8 1px solid
+}
+.ModelTitle {
+	PADDING-LEFT: 10px; FONT-WEIGHT: bolder; FONT-SIZE: 12pt; BACKGROUND-IMAGE: url(../Image/bg_title.gif); HEIGHT: 30px
+}
+.ModelTitle1 {
+	PADDING-LEFT: 10px; FONT-WEIGHT: bolder; FONT-SIZE: 12pt; BACKGROUND-IMAGE: url(../Image/bg_title.gif); HEIGHT: 30px
+}
+.ModelTitleBbs {
+	PADDING-LEFT: 10px; FONT-WEIGHT: bolder; FONT-SIZE: 9pt; BACKGROUND-IMAGE: url(../Image/bg_title.gif); HEIGHT: 30px
+}
+.Bbsrow1 {
+	BACKGROUND: #ffffff
+}
+.Bbsrow2 {
+	BACKGROUND: #f0f0f0
+}
+.bbsHead {
+	BORDER-RIGHT: #ccccff 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #ccccff 1px solid; PADDING-LEFT: 5px; BACKGROUND: #f0f0f0; PADDING-BOTTOM: 0px; MARGIN: 5px 0px; BORDER-LEFT: #ccccff 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #ccccff 1px solid
+}
+.mainTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; FONT-FAMILY: ??
+}
+.mainTitle1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; FONT-FAMILY: ??
+}
+.SubTitle {
+	BORDER-TOP: #d8d8d8 1px solid; PADDING-LEFT: 10px; FONT-WEIGHT: bolder; BACKGROUND-IMAGE: url(../Image/bg_title.gif); BORDER-BOTTOM: #d8d8d8 1px solid; HEIGHT: 24px
+}
+.SmallSubTitle {
+	BORDER-TOP: #d8d8d8 1px solid; PADDING-LEFT: 10px; FONT-WEIGHT: bolder; BACKGROUND-IMAGE: url(../Image/bg_title.gif); BORDER-BOTTOM: #d8d8d8 1px solid; HEIGHT: 12px
+}
+.smallInput {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; OVERFLOW-Y: hidden; FONT-WEIGHT: normal; FONT-SIZE: 9pt; BACKGROUND: #ffffff; OVERFLOW-X: hidden; BORDER-LEFT: 0px; COLOR: #000000; LINE-HEIGHT: normal; BORDER-BOTTOM: 0px; FONT-STYLE: normal; HEIGHT: 80px; FONT-VARIANT: normal
+}
+.ItemDashBottom {
+	PADDING-LEFT: 10px; HEIGHT: 24px
+}
+.ItemDashBottomLeft {
+	FONT-WEIGHT: bold; WORD-BREAK: keep-all; BORDER-BOTTOM: #d8d8d8 1px dashed; HEIGHT: 24px; TEXT-ALIGN: left
+}
+.ItemDashBottomLeft1 {
+	FONT-WEIGHT: normal; WORD-BREAK: keep-all; BORDER-BOTTOM: #d8d8d8 1px dashed; HEIGHT: 24px; TEXT-ALIGN: left
+}
+.ItemDashBottomRight {
+	FONT-WEIGHT: bold; WORD-BREAK: keep-all; BORDER-BOTTOM: #d8d8d8 1px dashed; HEIGHT: 24px; TEXT-ALIGN: right
+}
+.ItemDashBottomRight1 {
+	FONT-WEIGHT: normal; WORD-BREAK: keep-all; BORDER-BOTTOM: #d8d8d8 1px dashed; HEIGHT: 24px; TEXT-ALIGN: right
+}
+.ItemDashBottomCenter {
+	FONT-WEIGHT: bold; WORD-BREAK: keep-all; BORDER-BOTTOM: #d8d8d8 1px dashed; HEIGHT: 24px; TEXT-ALIGN: center
+}
+.DashTD {
+	BORDER-BOTTOM: #d8d8d8 thin dashed
+}
+.DashBottom {
+	BORDER-BOTTOM: #d8d8d8 1px dashed
+}
+.ItemNone {
+	PADDING-LEFT: 10px; HEIGHT: 24px
+}
+.ApproveTable {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; WIDTH: 100%; BORDER-BOTTOM: 0px
+}
+.NewSubTitle {
+	BORDER-TOP: #d8d8d8 1px solid; PADDING-LEFT: 10px; FONT-WEIGHT: bolder; BACKGROUND-IMAGE: url(../Image/bg_title.gif); BORDER-BOTTOM: #d8d8d8 1px solid; HEIGHT: 24px
+}
+.ApproveResult {
+	PADDING-LEFT: 10px; COLOR: red; BORDER-BOTTOM: #d8d8d8 1px dashed; HEIGHT: 24px
+}
+.ApproveInfo {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 10px; SCROLLBAR-FACE-COLOR: #ffffff; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; BORDER-LEFT: 0px; WIDTH: 100%; SCROLLBAR-SHADOW-COLOR: #ffffff; WORD-BREAK: break-all; SCROLLBAR-3DLIGHT-COLOR: #ffffff; SCROLLBAR-ARROW-COLOR: #ffffff; SCROLLBAR-TRACK-COLOR: #ffffff; BORDER-BOTTOM: 0px; SCROLLBAR-DARKSHADOW-COLOR: #ffffff; HEIGHT: 100%
+}
+.TbApprove {
+	BORDER-RIGHT: #d8d8d8 1px solid; BORDER-TOP: #d8d8d8 1px solid; PADDING-LEFT: 10px; SCROLLBAR-FACE-COLOR: #ffffff; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; BORDER-LEFT: #d8d8d8 1px solid; WIDTH: 100%; SCROLLBAR-SHADOW-COLOR: #ffffff; WORD-BREAK: break-all; SCROLLBAR-3DLIGHT-COLOR: #ffffff; SCROLLBAR-ARROW-COLOR: #ffffff; SCROLLBAR-TRACK-COLOR: #ffffff; BORDER-BOTTOM: #d8d8d8 1px solid; SCROLLBAR-DARKSHADOW-COLOR: #ffffff; HEIGHT: 50px
+}
+.CommitBar {
+	BACKGROUND-IMAGE: url('../Image/bg_title.gif'); VERTICAL-ALIGN: middle; HEIGHT: 30px; TEXT-ALIGN: center
+}
+.TwoWordButton {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BACKGROUND-IMAGE: url('../Image/button_twoword.gif'); BORDER-LEFT: 0px; WIDTH: 60px; PADDING-TOP: 3px; BORDER-BOTTOM: 0px; HEIGHT: 20px; TEXT-ALIGN: center
+}
+.MoreWordButton1 {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BACKGROUND-IMAGE: url('../Image/button_moreword.gif'); BORDER-LEFT: 0px; WIDTH: 110px; PADDING-TOP: 3px; BORDER-BOTTOM: 0px; HEIGHT: 20px; TEXT-ALIGN: center
+}
+.MoreWordButton {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BACKGROUND-IMAGE: url('../Image/button_moreword.gif'); BORDER-LEFT: 0px; WIDTH: 120px; PADDING-TOP: 3px; BORDER-BOTTOM: 0px; HEIGHT: 20px; TEXT-ALIGN: center
+}
+.MoreWordButton1 {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BACKGROUND-IMAGE: url('../Image/button_moreword1.gif'); BORDER-LEFT: 0px; WIDTH: 160px; PADDING-TOP: 3px; BORDER-BOTTOM: 0px; HEIGHT: 20px; TEXT-ALIGN: center
+}
+.MoreWordButtonX {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BACKGROUND-IMAGE: url('../Image/button_morewordX.gif'); BORDER-LEFT: 0px; WIDTH: 240px; PADDING-TOP: 3px; BORDER-BOTTOM: 0px; HEIGHT: 20px; TEXT-ALIGN: center
+}
+.MoreWordButtonN {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-WEIGHT: normal; BACKGROUND-IMAGE: url('../Image/button_moreword.gif'); BORDER-LEFT: 0px; WIDTH: 120px; WORD-BREAK: keep-all; PADDING-TOP: 3px; BORDER-BOTTOM: 0px; HEIGHT: 20px; TEXT-ALIGN: center
+}
+.MoreWordButton1 {
+	FONT-SIZE: 14px; WIDTH: 350px; COLOR: black; HEIGHT: 30px
+}
+.ModelDg {
+	BORDER-RIGHT: #d8d8d8 1px solid; BORDER-TOP: #d8d8d8 1px solid; BORDER-LEFT: #d8d8d8 1px solid; WIDTH: 100%; BORDER-BOTTOM: #d8d8d8 1px solid
+}
+.DgHead {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; background-image: url('../Image/bg_title.gif'); HEIGHT: 24px; TEXT-ALIGN: center
+}
+.DgHeadTall {
+	BACKGROUND-IMAGE: url(../Image/bg_title.gif)}
+.DgItem {
+	HEIGHT: 24px
+}
+.DgItem12 {
+	HEIGHT: 24px; TEXT-ALIGN: right
+}
+.DgAlterItem {
+	HEIGHT: 24px
+}
+.DgPage {
+	HEIGHT: 24px; TEXT-ALIGN: right
+}
+.DgItemHand {
+	CURSOR: hand; HEIGHT: 24px
+}
+.DgAlterItemHand {
+	CURSOR: hand; HEIGHT: 24px
+}
+.ErrorInfo {
+	PADDING-LEFT: 10px; COLOR: red
+}
+.FileButton {
+	BORDER-RIGHT: #d8d8d8 1px solid; BORDER-TOP: #d8d8d8 1px solid; BORDER-LEFT: #d8d8d8 1px solid; WIDTH: 400px; BORDER-BOTTOM: #d8d8d8 1px solid; HEIGHT: 20px
+}
+.TbBorder {
+	BORDER-RIGHT: #d8d8d8 1px solid; BORDER-TOP: #d8d8d8 1px solid; BORDER-LEFT: #d8d8d8 1px solid; WIDTH: 160px; BORDER-BOTTOM: #d8d8d8 1px solid; HEIGHT: 20px
+}
+.TbBorder1 {
+	BORDER-RIGHT: #d8d8d8 1px solid; BORDER-TOP: #d8d8d8 1px solid; BORDER-LEFT: #d8d8d8 1px solid; width: 15%; BORDER-BOTTOM: #d8d8d8 1px solid; HEIGHT: 20px
+}
+.TbBorder_short {
+	BORDER-RIGHT: #d8d8d8 1px solid; BORDER-TOP: #d8d8d8 1px solid; BORDER-LEFT: #d8d8d8 1px solid; WIDTH: 50px; BORDER-BOTTOM: #d8d8d8 1px solid; HEIGHT: 20px
+}
+.TbNoBorder {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; WIDTH: 160px; BORDER-BOTTOM: 0px; HEIGHT: 20px
+}
+.TbBorderWide {
+	BORDER-RIGHT: #d8d8d8 1px solid; BORDER-TOP: #d8d8d8 1px solid; BORDER-LEFT: #d8d8d8 1px solid; WIDTH: 360px; COLOR: #000000; BORDER-BOTTOM: #d8d8d8 1px solid; HEIGHT: 20px
+}
+.TbBorderWideMulti {
+	BORDER-RIGHT: #d8d8d8 1px solid; BORDER-TOP: #d8d8d8 1px solid; BORDER-LEFT: #d8d8d8 1px solid; WIDTH: 160px; COLOR: #000000; BORDER-BOTTOM: #d8d8d8 1px solid; HEIGHT: 50px
+}
+.SolidBottom {
+	BORDER-BOTTOM: #d8d8d8 1px solid; HEIGHT: 24px
+}
+.WebTable {
+	BORDER-RIGHT: #d8d8d8 1px solid; BORDER-TOP: #d8d8d8 1px solid; BORDER-LEFT: #d8d8d8 1px solid; WIDTH: 100%; BORDER-BOTTOM: #d8d8d8 1px solid; HEIGHT: 100%
+}
+.DgBgCSS {
+	VERTICAL-ALIGN: top
+}
+.TheDg {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; WIDTH: 100%; BORDER-BOTTOM: 0px
+}
+.DgTb {
+	BORDER-RIGHT: #d8d8d8 1px solid; BORDER-TOP: #d8d8d8 1px solid; BORDER-LEFT: #d8d8d8 1px solid; BORDER-BOTTOM: #d8d8d8 1px solid; HEIGHT: 20px
+}
+.DgTb1 {
+	BORDER-RIGHT: #d8d8d8 1px solid; BORDER-TOP: #d8d8d8 1px solid; BORDER-LEFT: #d8d8d8 1px solid; BORDER-BOTTOM: #d8d8d8 1px solid; HEIGHT: 20px; TEXT-ALIGN: right
+}
+.LinkButtonBlack {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.LinkButtonRed {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+.ItemTitleDashBottom {
+	PADDING-LEFT: 5px; WIDTH: 130px; WORD-BREAK: keep-all; BORDER-BOTTOM: #d8d8d8 1px dashed; HEIGHT: 24px; TEXT-ALIGN: right
+}
+.TdAsBorder {
+	WIDTH: 1px; BACKGROUND-COLOR: #d8d8d8
+}
+.TdSplit {
+	HEIGHT: 10px; BACKGROUND-COLOR: #d8d8d8
+}
+.RedFontDashBottom {
+	COLOR: #ff0000; BORDER-BOTTOM: #d8d8d8 1px dashed; HEIGHT: 24px
+}
+.handClick {
+	CURSOR: hand
+}
+.BlueDesc {
+	COLOR: #0000ff; FONT-STYLE: normal
+}
+.title {
+	COLOR: #3366cc; TEXT-ALIGN: center
+}
+.hid {
+	DISPLAY: none
+}
+.ModelTitle2 {
+	FONT-WEIGHT: bolder; FONT-SIZE: 12pt
+}
+.SolidDgHead {
+	 LEFT: expression(this.offsetParent.scrollLeft - 1); BACKGROUND-IMAGE: url(../Image/bg_title.gif); POSITION: relative; ; TOP: expression(this.offsetParent.scrollTop - 1); HEIGHT: 24px; TEXT-ALIGN: center
+}
+.DataDashBottom {
+	BORDER-LEFT: #d8d8d8 1px dashed; WORD-BREAK: keep-all; BORDER-BOTTOM: #d8d8d8 1px dashed; HEIGHT: 24px
+}
+.ItemDashBottomRightBold {
+	FONT-WEIGHT: bold; WORD-BREAK: keep-all; BORDER-BOTTOM: #d8d8d8 1px dashed; HEIGHT: 24px; TEXT-ALIGN: right
+}
+.ItemNoneRightBold {
+	FONT-WEIGHT: bold; WORD-BREAK: keep-all; HEIGHT: 24px; TEXT-ALIGN: right
+}
+.ApproveItemTd {
+	PADDING-LEFT: 10px; BORDER-BOTTOM: #d8d8d8 1px dashed; HEIGHT: 24px
+}
+.ApproveInfoTd {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; WORD-BREAK: break-all; BORDER-BOTTOM: #d8d8d8 1px dashed
+}
+.DataItem {
+	PADDING-LEFT: 10px; WORD-BREAK: keep-all; BORDER-BOTTOM: #d8d8d8 1px dashed; HEIGHT: 24px
+}
+.FeeMentNavigation {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Batang; TEXT-DECORATION: none
+}
+.DisCtl {
+	DISPLAY: none
+}

@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<xs:schema id="NewDataSet" targetNamespace="http://tempuri.org/highlight.xsd" xmlns:mstns="http://tempuri.org/highlight.xsd" xmlns="http://tempuri.org/highlight.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="highlight">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="keywordlists" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="keywordlist" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="kw" nillable="true" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:simpleContent msdata:ColumnName="kw_Text" msdata:Ordinal="0">
+													<xs:extension base="xs:string"></xs:extension>
+												</xs:simpleContent>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="id" form="unqualified" type="xs:string" />
+									<xs:attribute name="pre" form="unqualified" type="xs:string" />
+									<xs:attribute name="post" type="xs:string" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="languages" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="language" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="contexts" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="context" minOccurs="0" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="detect2chars" minOccurs="0" maxOccurs="unbounded">
+																	<xs:complexType>
+																		<xs:attribute name="attribute" form="unqualified" type="xs:string" />
+																		<xs:attribute name="context" form="unqualified" type="xs:string" />
+																		<xs:attribute name="char" form="unqualified" type="xs:string" />
+																		<xs:attribute name="char1" form="unqualified" type="xs:string" />
+																	</xs:complexType>
+																</xs:element>
+																<xs:element name="regexp" minOccurs="0" maxOccurs="unbounded">
+																	<xs:complexType>
+																		<xs:attribute name="attribute" form="unqualified" type="xs:string" />
+																		<xs:attribute name="context" form="unqualified" type="xs:string" />
+																		<xs:attribute name="expression" form="unqualified" type="xs:string" />
+																	</xs:complexType>
+																</xs:element>
+																<xs:element name="keyword" minOccurs="0" maxOccurs="unbounded">
+																	<xs:complexType>
+																		<xs:attribute name="attribute" form="unqualified" type="xs:string" />
+																		<xs:attribute name="context" form="unqualified" type="xs:string" />
+																		<xs:attribute name="family" form="unqualified" type="xs:string" />
+																	</xs:complexType>
+																</xs:element>
+																<xs:element name="linecontinue" minOccurs="0" maxOccurs="unbounded">
+																	<xs:complexType>
+																		<xs:attribute name="attribute" form="unqualified" type="xs:string" />
+																		<xs:attribute name="context" form="unqualified" type="xs:string" />
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+															<xs:attribute name="id" form="unqualified" type="xs:string" />
+															<xs:attribute name="attribute" form="unqualified" type="xs:string" />
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="default" form="unqualified" type="xs:string" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="id" form="unqualified" type="xs:string" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="needs-build" form="unqualified" type="xs:string" />
+			<xs:attribute name="save-build" form="unqualified" type="xs:string" />
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

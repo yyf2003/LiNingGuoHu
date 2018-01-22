@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <title>菜单</title>
+    <meta http-equiv="Content-Type" content="text/html;" charset="gb2312">
+
+    <script language="javascript">
+function switchSysBar(){
+	if (parent.document.getElementById('attachucp').cols=="196,9,*"){	
+		document.getElementById('leftbar').style.display="";
+		parent.document.getElementById('attachucp').cols="0,9,*";		
+	}
+	else{
+		parent.document.getElementById('attachucp').cols="196,9,*";		
+		document.getElementById('leftbar').style.display="none"
+	}
+}
+function load(){
+    if (parent.document.getElementById('attachucp').cols=="196,9,*"){	
+		document.getElementById('leftbar').style.display="";		
+	}
+}
+    </script>
+
+</head>
+<body leftmargin="0" topmargin="0" onload="load()"  bgcolor="#e6e6e6">
+    <center>
+        <table width="100%"  border="0" cellpadding="0" cellspacing="0"  id="t1">
+            <tr>
+               
+                <td id="leftbar"  style="display: none" >
+                    <a href="javascript:void(0);" onclick="switchSysBar()">
+                        <img id="open" src="./images/go_right.gif" width="9" height="50"
+                            alt='展开左侧菜单' border="0"></a></td>
+                <td id="rightbar" >
+                    <a href="javascript:void(0);" onclick="switchSysBar()">
+                        <img id="close" src="./images/go_left.gif" width="9" height="50"
+                            alt='隐藏左侧菜单' border="0"></a></td>
+            </tr>
+        </table>
+    </center>
+</body>
+   <script language="javascript">
+
+document.getElementById('t1').style.height= window.screen.height/2+90+window.screen.height*0.15;
+    </script>
+</html>

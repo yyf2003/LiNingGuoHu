@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Insert Source Code</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta content="noindex, nofollow" name="robots">
+		<script language="javascript" src="fck_inscode/highlight.js" runat="client"></script>
+		<script language="javascript">
+
+var oEditor = window.parent.InnerDialogLoaded() ;
+var FCKLang = oEditor.FCKLang ;
+
+window.onload = function ()
+{
+	// First of all, translate the dialog box texts
+	oEditor.FCKLanguageManager.TranslatePage( document ) ;
+
+	LoadSelected() ;
+
+	// Show the "Ok" button.
+	window.parent.SetOkButton( true ) ;
+}
+
+var eSelected = oEditor.FCKSelection.GetSelectedElement() ;
+
+function LoadSelected()
+{
+	if ( !eSelected )
+		return ;
+
+	if ( eSelected.tagName == 'SPAN' && eSelected._fckplaceholder )
+		document.getElementById('txtName').value = eSelected._fckplaceholder ;
+	else
+		eSelected == null ;
+}
+
+function IsIE()
+{
+	var browser=navigator.appName;
+	if (browser == "Microsoft Internet Explorer")
+		return true;
+	else
+		return false;
+}
+
+function Ok()
+{
+    var sLanguage = document.getElementById('selectLanguage').value ;
+    var sCode = document.getElementById('textCode').value ;
+
+    if(sCode.length == 0)
+    {
+		alert( FCKLang.InsertCode ) ;
+		return false ;
+    }
+    
+    if(sLanguage == 'other')
+        oEditor.FCK.InsertHtml( '<pre>' + sCode + '</pre>' ) ;
+    else
+    {
+        var sHighlighted = '';
+        sHighlighted = processAndHighlightText( "<pre lang=\"" + sLanguage + "\">" + sCode + "</pre>", "<", "pre", ">", true);
+        //sHighlighted = processAndHighlightText( sHighlighted, "<", "code", ">", false);
+        //oEditor.FCK.InsertHtml( highlightCode( sLanguage, sLanguage, false, sCode ) ) ;
+        oEditor.FCK.InsertHtml( sHighlighted ) ;
+        sHighlighted = '';
+     }
+    
+    //oEditor.FCK.InsertHtml( sCode ) ;
+
+	document.body.innerHTML = '' ;
+
+	window.parent.Cancel() ;
+
+	return true ;
+}
+
+		</script>
+	</head>
+	<body scroll="no" style="OVERFLOW: hidden">
+		<table height="100%" cellSpacing="0" cellPadding="0" width="100%" border="0">
+			<tr>
+				<td>
+					<table cellSpacing="0" cellPadding="0" align="center" border="0">
+						<tr>
+							<td align="left" >
+								语言
+							</td>
+							<td>
+                                &nbsp;<select id="selectLanguage" style="width:120px;" >
+                                    <option value="cs">C#</option>
+                                    <option value="xml">XML</option>
+                                    <option value="cpp">C++</option>
+                                    <option value="vbscript">VB</option>
+                                    <option value="other">其它</option>
+                                </select>
+							</td>
+						</tr>
+						<tr>
+						    <td>&nbsp;</td>
+						    <td>&nbsp;</td>
+						</tr>
+						<tr>
+						    <td align="left" >
+						        代码
+						    </td>
+						    <td>
+                                &nbsp;<textarea id="textCode" cols="50" rows="15"></textarea>
+						    </td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

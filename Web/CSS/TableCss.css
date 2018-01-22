@@ -1,0 +1,86 @@
+﻿.txtwith{
+	
+	width:80%;
+
+	border-width:1px;
+	border-color:black;
+	
+}
+.DDlstyle
+	{
+	width:80%;	
+	border-color:black;
+}
+
+.table{
+	border:1px solid #6d6060;	/* 表格边框 */
+	font-family:Arial;
+	border-collapse:collapse;   /* 边框重叠 */
+	background-color:#fdf6f6;	/* 表格背景色 */
+	font-size:12px;
+	width:900px;
+}
+.table caption{
+	padding-bottom:5px;
+	font:bold 1.4em;
+	text-align:left;
+}
+.table th{
+	border:1px solid #6d7378;	/* 行名称边框 */
+	background-color:#a1a1a1;	/* 行名称背景色 */
+	color:#fff;				/* 行名称颜色 */
+	font-weight:bold;
+	padding-top:4px; padding-bottom:4px;
+	padding-left:12px; padding-right:12px;
+	text-align:center;
+}
+.table td{
+	border:1px solid #797e83;	/* 单元格边框 */
+	 line-height:25px;
+	padding-top:4px; padding-bottom:4px;
+	padding-left:5px; padding-right:10px;
+}
+.table tr.altrow{
+	background-color:#e2e0e0;	/* 动态变色 */
+}
+.table tr:hover{
+	background-color:#e2e0e0;	/* 动态变色 */ 
+}
+
+.qr0
+{
+    height:23px;
+    width:62px; 
+    font-size:12px; 
+    cursor:hand; 
+    color:#fff; 
+    background-color: #ffffff;
+    background-image:url(../images/login-1_12.gif); background-repeat: repeat; background-attachment:scroll;
+    background-position:center; border: 0 solid #000000; text-align: center; padding-top:
+    3px;}
+    
+BODY {
+	 font-size: 12px;
+    background-position: center bottom; background-repeat: no-repeat;
+}
+
+ .ts{
+    display:none;
+    position:absolute;
+    /*left:100px;
+    top:55px;*/
+    width:320px;
+    background-color:#FFFFFF;
+    border:1px solid #CC9900;
+    text-align:center;
+    }
+    .ts a{
+    display:block;
+    height:25px;
+    line-height:25px;
+    cursor:pointer
+    }
+    .ts a:hover{
+    background-color:#CCCCCC
+    }
+

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<city>
+
+    <ID>
+        197
+    </ID>
+    <CityId>
+        1
+    </CityId>
+    <CityName>
+        北京
+    </CityName>
+    <CountryId>
+        1
+    </CountryId>
+    <AreaId>
+        1
+    </AreaId>
+    <OmitId>
+        1
+    </OmitId>
+
+
+
+    <ID>
+        197
+    </ID>
+    <CityId>
+        1
+    </CityId>
+    <CityName>
+        北京
+    </CityName>
+    <CountryId>
+        1
+    </CountryId>
+    <AreaId>
+        1
+    </AreaId>
+    <OmitId>
+        1
+    </OmitId>
+
+
+    <ID>
+        197
+    </ID>
+    <CityId>
+        1
+    </CityId>
+    <CityName>
+        北京
+    </CityName>
+    <CountryId>
+        1
+    </CountryId>
+    <AreaId>
+        1
+    </AreaId>
+    <OmitId>
+        1
+    </OmitId>
+
+</city>

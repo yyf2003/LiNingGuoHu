@@ -1,0 +1,16 @@
+﻿/*弹开灰窗口*/
+.hir1 {width:470px;background:#cccccc;text-align:left;padding-left:20px;font-size:14px;font-weight:bold;height:20px;line-height:20px;float:left; padding-top:10px}
+*html .hir1 {height:25px;line-height:25px; padding-top:0px}
+*+html .hir1 {height:25px;line-height:25px; padding-top:0px}
+
+.hirimg {width:35px;background:#cccccc;text-align:right;padding-right:20px;height:20px;padding-top:0px; float:right}
+*html .hirimg {height:25px; padding-top:5px}
+*+html .hirimg {height:25px; padding-top:5px}
+
+.hir2{width:509px;float:left;background:#fff;text-align:center;font-size:12px;height:190px;border-left:1px solid #999999;border-right:1px solid #F9CADE;}
+*html .hir2{width:509px;height:130px;line-height:120px;padding-left:0;height:160px;}
+*+html .hir2{width:509px;height:130px;line-height:120px;padding-left:0;height:160px;}
+
+.hirbit{ background:#cccccc;text-align:center;font-weight:bold;height:25px;line-height:25px; float:left}
+*html .hirbit{ height:25px;line-height:25px;}
+*+html .hirbit{ height:25px;line-height:25px;}
